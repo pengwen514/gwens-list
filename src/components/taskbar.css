@@ -1,0 +1,57 @@
+.taskbar{
+	width: 100%;
+	height: 60px;
+	position: sticky;
+	top: 0;
+	display: flex;
+	align-items: center;
+	font-family: 'Times New Roman', Times, serif;
+}
+
+.leftTaskbar, .rightTaskbar{
+	flex: 3;
+	display: flex;
+	align-items: center;
+	justify-content: center;
+}
+
+.topIcon{
+	font-size: 20px;
+	margin-right: 10px;
+	color: brown;
+	cursor: pointer;
+}
+
+.topImage{
+	width: 40px;
+	height: 40px;
+	border-radius: 50%;
+	object-fit: cover;
+}
+
+.centerTaskbar{
+	flex: 6
+}
+
+.taskbarList{
+	display: flex;
+	justify-content: center;
+	color: brown;
+	margin: 0;
+	padding: 0;
+	list-style: none;
+}
+
+.taskbarListItem{
+	margin-right: 20px;
+	font-size: 18px;
+	font-weight: 300;
+	cursor: pointer;
+}
+
+.topSearchIcon{
+	font-size: 18px;
+	color: brown;
+	cursor: pointer;
+	margin-left: 15px;
+}
