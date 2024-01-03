@@ -4,7 +4,7 @@ export default function Post(){
 	return(
 		<>
 		<div className='post'>
-			<img className='postImg' src='https://th.bing.com/th/id/OIP.a4lEh0zK2dmghg4nmpoRUAHaEk?rs=1&pid=ImgDetMain' alt='NYC'></img>
+			<img className='postImg' src='https://th.bing.com/th/id/OIP.a4lEh0zK2dmghg4nmpoRUAHaEk?rs=1&pid=ImgDetMain' alt=''></img>
 			<div className='postInfo'>
 				<div className='postCategories'>
 					<span className='postCategory'>Travel</span>
@@ -40,7 +40,7 @@ export default function Post(){
 		</p>
 	</div>
 	<div className='post'>
-		<img className='postImg' src='https://th.bing.com/th/id/OIP.a4lEh0zK2dmghg4nmpoRUAHaEk?rs=1&pid=ImgDetMain' alt='NYC'></img>
+		<img className='postImg' src='https://th.bing.com/th/id/OIP.a4lEh0zK2dmghg4nmpoRUAHaEk?rs=1&pid=ImgDetMain' alt=''></img>
 		<div className='postInfo'>
 			<div className='postCategories'>
 				<span className='postCategory'>Travel</span>
