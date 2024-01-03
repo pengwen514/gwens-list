@@ -1,5 +1,6 @@
 .header{
-	margin-top: 60px;
+	background: url('https://th.bing.com/th/id/R.88573fc3bacf77108792f0444f811dff?rik=0iPctQYsWregWw&riu=http%3a%2f%2fwallpapercave.com%2fwp%2fXEq6o0E.jpg&ehk=U9C6TkGDNqpyrMKPtfrlnfE04vI1GWqulIwIY5NAr%2bE%3d&risl=&pid=ImgRaw&r=0');
+	background-size: cover;
 }
 
 .headerTitles{
@@ -7,19 +8,20 @@
 	flex-direction: column;
 	align-items: center;
 	font-family: 'Times New Roman', Times, serif;
-	color: brown;
-}
-
-.headerTitleSmall{
-	position: absolute;
-	top: 8%;
-	font-size: 20px;
+	color: black;
 }
 
 .headerTitleLarge{
 	position: absolute;
 	top: 10%;
 	font-size: 100px;
+	background-color: white;
+	z-index: 9;
+	border: 10px black solid;
+	padding-left: 30px;
+	padding-right: 30px;
+	padding-top: 10px;
+	padding-bottom: 10px;
 }
 
 .headerImg{
@@ -27,4 +29,5 @@
 	height: 450px;
 	margin-top: 80px;
 	object-fit: cover;
+	filter: sepia() contrast(1);
 }

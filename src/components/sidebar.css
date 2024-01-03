@@ -2,10 +2,11 @@
 	flex: 3;
 	margin: 20px;
 	padding-bottom: 30px;
-	border-radius: 10px;
 	display: flex;
 	flex-direction: column;
 	align-items: center;
+	background-color: bisque;
+	border: 10px black solid;
 }
 
 .sidebarItem{
@@ -21,14 +22,15 @@
 	border-top: 1px solid burlywood;
 	border-bottom: 1px solid burlywood;
 	font-size: 20px;
-	color: brown;
+	color: black;
 	font-weight: 300;
 	line-height: 20px;
 	text-align: center;
 }
 
 .sidebarImg{
-	margin-top: 15px;
+	margin-top: 8px;
+	filter: grayscale();
 }
 
 .sidebarAbout{

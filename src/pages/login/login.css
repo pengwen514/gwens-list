@@ -1,0 +1,49 @@
+.login{
+	height: calc(100vh - 50px);
+	display: flex;
+	flex-direction: column;
+	align-items: center;
+	justify-content: center;
+	background: url('https://th.bing.com/th/id/R.88573fc3bacf77108792f0444f811dff?rik=0iPctQYsWregWw&riu=http%3a%2f%2fwallpapercave.com%2fwp%2fXEq6o0E.jpg&ehk=U9C6TkGDNqpyrMKPtfrlnfE04vI1GWqulIwIY5NAr%2bE%3d&risl=&pid=ImgRaw&r=0');
+	background-size: cover;
+}
+
+.loginTitle{
+	font-size: 50px;
+}
+
+.loginForm{
+	margin-top: 20px;
+	display: flex;
+	flex-direction: column;
+}
+
+.loginForm > label{
+	margin: 10px 0;
+}
+
+.loginInput{
+	padding: 10px;
+	background-color: white;
+	border:none;
+}
+
+.loginButton{
+	margin-top: 20px;
+	cursor: pointer;
+	background-color: black;
+	border: none;
+	color: white;
+	padding: 10px;
+}
+
+.loginRegisterButton{
+	position: absolute;
+	top: 70px;
+	right: 20px;
+	background-color: black;
+	cursor: pointer;
+	border: none;
+	padding: 10px;
+	color: white;
+}
