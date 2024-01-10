@@ -1,4 +1,5 @@
 import './post.css'
+import { Link } from 'react-router-dom'
 
 export default function Post(){
 	return(
@@ -10,7 +11,7 @@ export default function Post(){
 					<span className='postCategory'>Travel</span>
 					<span className='postCategory'>Food</span>
 				</div>
-				<span className='postTitle'>My weekend in NYC</span>
+				<Link to='/post/post:id' style={{textDecoration:'none', color:'inherit'}}><span className='postTitle'>My weekend in NYC</span></Link>
 				<hr />
 				<span className='postDate'>1 hour ago</span>
 			</div>
@@ -28,7 +29,7 @@ export default function Post(){
 				<span className='postCategory'>Travel</span>
 				<span className='postCategory'>Food</span>
 			</div>
-			<span className='postTitle'>My weekend in NYC</span>
+			<Link to='/post/post:id' style={{textDecoration:'none', color:'inherit'}}><span className='postTitle'>My weekend in NYC</span></Link>
 			<hr />
 			<span className='postDate'>1 hour ago</span>
 		</div>
@@ -46,7 +47,7 @@ export default function Post(){
 				<span className='postCategory'>Travel</span>
 				<span className='postCategory'>Food</span>
 			</div>
-			<span className='postTitle'>My weekend in NYC</span>
+			<Link to='/post/post:id' style={{textDecoration:'none', color:'inherit'}}><span className='postTitle'>My weekend in NYC</span></Link>
 			<hr />
 			<span className='postDate'>1 hour ago</span>
 		</div>

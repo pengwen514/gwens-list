@@ -5,7 +5,7 @@ export default function Sidebar() {
 		<div className='sidebar'>
 			<div className='sidebarItem'>
 				<span className='sidebarTitle'>ABOUT ME</span>
-				<img className='sidebarImg' src='https://avatars.githubusercontent.com/u/129791681?v=4' alt='me' />
+				<img className='sidebarImg' src='https://ca.slack-edge.com/T035D3AE74L-U050PR5CMBL-9eac6e6f64de-512' alt='me' />
 				<p className='sidebarAbout'>Lorem</p>
 			</div>
 			<div className='sidebarItem'>
